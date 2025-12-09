@@ -1,4 +1,4 @@
-# Interactive Scatter Plot — Data Visualization Assignment 2
+# Interactive Scatter Plot - DataVis Assignment 2
 
 **Author:** Gülce Erdoğan Babayev  
 **Institution:** TU Dresden  
@@ -61,6 +61,11 @@ TU_Dresden/
 │
 ├── assets/
 │   └── cars.csv
+│
+├── photos/                # example photos of the scatter plot
+│   ├── 1.png    
+│   ├── 2.png
+│   └── 3.png
 │
 ├── src/
 │   ├── data_utils.js      # data loading & preprocessing helpers
