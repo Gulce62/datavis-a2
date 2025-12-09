@@ -4,6 +4,8 @@
 **Institution:** TU Dresden  
 **Course:** Data Visualization  
 
+**Github Page:** https://gulce62.github.io/datavis-a2/
+
 ## Project Overview
 This project implements an interactive scatter plot to explore multidimensionall car data using **D3.js** for **Assignment 2** in the Data Visualization course. Example photos of the scatter plots are in the **photos** folder.
 
