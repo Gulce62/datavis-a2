@@ -1,0 +1,28 @@
+Question 1: Describe the main principle of a scatterplot matrix!
+
+A scatterplot matrix (SPLOM) is a grid-based visualization that displays pairwise relationships between multiple numerical attributes in a dataset. Each row and column corresponds to one attribute, and every cell in the matrix contains a scatterplot comparing the two associated attributes. In this way, a SPLOM decomposes a multivariate dataset into all possible two-dimensional projections, making it easier to visually compare variables, detect trends, correlations, clusters, and outliers.
+
+Question 2: How many scatterplots for n attributes?
+
+(n^2 - n) / 2 
+
+Total possible pairs: n^2
+Remove diagonal: n comparisons of attribute with itself
+Divide by 2 because the matrix is symmetric (A vs B equals B vs A)
+
+Question 3: Sketch an example for the cars data set (with 3 selected cars)
+
+The sketch can be found in photos/sketch.png file.
+
+Question 4:  Discuss advantages and disadvantages
+
+Advantages
+* Correlation: Shows all pairwise relationships between attributes at once.
+* Comparison: Each attribute can be compared visually against every other attribute.
+* Pattern recognition: Useful for detecting structural patterns and inconsistencies in the data.
+
+Disadvantages
+* Scalability issues: Does not scale well to high-dimensional datasets as the matrix becomes very large.
+* Overplotting: Scatterplots can become dense making exploration of data harder.
+* Limited to pairwise relations: It can only examine pair-wise relationships and cannot capture higher-order interactions between variables.
+

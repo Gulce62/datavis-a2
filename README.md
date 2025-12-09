@@ -65,7 +65,8 @@ TU_Dresden/
 ├── photos/                # example photos of the scatter plot
 │   ├── 1.png    
 │   ├── 2.png
-│   └── 3.png
+│   ├── 3.png
+│   └── sketch.png
 │
 ├── src/
 │   ├── data_utils.js      # data loading & preprocessing helpers
