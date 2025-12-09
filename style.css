@@ -1,5 +1,36 @@
 body {
     height: 100%;
+    margin: 0;              
+    font-family: sans-serif;
 }
 
-/* YOUR CSS CODE GOES HERE */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 1200px 220px;  
+    justify-content: center;              
+    column-gap: 20px;
+    align-items: flex-start;
+}
+
+#scatterplot {
+    width: 1200px;
+    height: 600px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    background-color: #fafafa;
+}
+
+#details-panel {    
+    width: 220px; 
+    height: 600px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    background-color: #fafafa;
+    padding-left: 10px;
+}
+
