@@ -1,6 +1,7 @@
 # Interactive Scatter Plot - DataVis Assignment 2
 
 **Author:** Gülce Erdoğan Babayev / Garima Dhakal / Mohamed Elsheikh
+
 **Institution:** TU Dresden  
 **Course:** Data Visualization  
 
